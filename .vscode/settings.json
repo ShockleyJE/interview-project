@@ -1,0 +1,26 @@
+{
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "firebase",
+      "database": "airbnb",
+      "username": "root",
+      "password": "cmc101e404"
+    },
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "askForPassword": true,
+      "driver": "PostgreSQL",
+      "connectString": "postgresql://postgres:nZXY4qjey0SQWeom@db.onyhrbyjrhdscttxmcuq.supabase.co:5432/postgres",
+      "name": "Supa Neurelo"
+    }
+  ]
+}

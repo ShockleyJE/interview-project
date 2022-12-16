@@ -1,0 +1,1 @@
+#https://razorsql.com/articles/postgresql_system_queries.html

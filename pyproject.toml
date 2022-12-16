@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "neurelo-project"
+version = "0.1.0"
+description = ""
+authors = ["shockleyje <8533782+ShockleyJE@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "neurelo_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^2.2.2"
+pyodbc = "^4.0.35"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
