@@ -27,15 +27,3 @@ def api_get_foreignkeys():
     table = args.get('table')
     coldata = get_keydata_for_table(table)
     return jsonify(coldata)
-
-"""
-PUT endpoint with a request body
-"""
-@app.route('/genre', methods = ['PUT'])
-def api_addMusicArtist():
-    data = request.json
-    print(data)
-    try:
-        return Response("{ 'message' : 'success' }", status=201, mimetype='application/json')
-    except Exception as e:
-        return Response("{ 'message' : 'not all parameters available' }", status=400, mimetype='application/json')
